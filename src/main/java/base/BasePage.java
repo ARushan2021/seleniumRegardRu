@@ -12,18 +12,13 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOf;
 
 public class BasePage {
 
-    @FindBy(xpath = "//div[@class='loader-mask shown']")
-    private WebElement loadingIcon;
+
 
     protected static WebDriver driver = getWebDriver();
     protected WebDriverWait wait = new WebDriverWait(driver, ofSeconds(20));
 
     public BasePage() {
         initElements(driver, this);
-    }
-
-    public void loading() {
-        wait.until(invisibilityOf(loadingIcon));
     }
 
 }
