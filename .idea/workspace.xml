@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd92553-6627-42dd-bc09-2af35ef410f0" name="Changes" comment="Создан проект seleniumRegardRu">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="3bd92553-6627-42dd-bc09-2af35ef410f0" name="Changes" comment="открываю меню видеокарты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/regarRuTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/regarRuTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679068017529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="открываю меню видеокарты">
+      <created>1679079106756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679079106756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создан проект seleniumRegardRu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан проект seleniumRegardRu" />
+    <MESSAGE value="открываю меню видеокарты" />
+    <option name="LAST_COMMIT_MESSAGE" value="открываю меню видеокарты" />
   </component>
 </project>

@@ -30,10 +30,11 @@ public class DriverManager {
         driver.manage().window().maximize();
     }
 
-    public static void closeDriver() {
-        if(driver != null){
+    public static void closeDriver() throws InterruptedException {
+        if (driver != null) {
             driver.quit();
             driver = null;
+
         }
     }
 }
