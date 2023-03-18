@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.concurrent.TimeUnit;
 
 public class SearchResultsPage extends BasePage {
 
@@ -20,12 +19,11 @@ public class SearchResultsPage extends BasePage {
     String nameFirstValue = productSearchPage.getFirstValue();
     String namevalue = nameValue.getText();
 
-    public void assertSearchResults () throws InterruptedException {
+    public void assertSearchResults () {
         Assertions.assertEquals("1 товар", amountSeachResalts, "В выдаче поиска не один товар!");
-        TimeUnit.SECONDS.sleep(3);
     }
-    public void assertNameValue () throws InterruptedException {
+    public void assertNameValue () {
         Assertions.assertEquals(nameFirstValue, namevalue, "Товар введенный в поиск не совпадает с найденным товаром");
-        TimeUnit.SECONDS.sleep(5);
+
     }
 }

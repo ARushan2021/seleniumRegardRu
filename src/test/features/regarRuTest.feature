@@ -13,6 +13,8 @@ Feature: RegardRu
       | section     | subSection |minPrice|companyName|
       | Комплектующие для ПК| Видеокарты|20000|Gigabyte|
       |Периферия            |Клавиатуры |2000|A4Tech|
+      |Периферия            |Мыши|100|A4Tech|
+
 
 
 
