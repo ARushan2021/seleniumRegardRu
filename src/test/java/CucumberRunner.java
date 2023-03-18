@@ -11,7 +11,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         features = {"src/test/features"},
         glue = {"steps", "hooks"},
         tags = "@all",
-        plugin = {"pretty", "summary"}, snippets = CAMELCASE
+        plugin = {"pretty", "summary","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, snippets = CAMELCASE
 
 )
 public class CucumberRunner {
